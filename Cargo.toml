@@ -1,0 +1,18 @@
+[package]
+name = "audiowaveform_rs"
+version = "0.1.0"
+authors = ["rizgan <rizgan@gmail.com>"]
+edition = "2018"
+
+[lib]
+name = "audiowaveform_rs"
+path = "src/lib.rs"
+
+[[bin]]
+name = "audiowaveform_rs"
+path = "src/main.rs"
+
+[dependencies]
+hound = "3.5.1"
+serde_json = "1.0.147"
+rayon = "1.11.0"
